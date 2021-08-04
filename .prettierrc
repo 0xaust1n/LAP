@@ -1,0 +1,11 @@
+{
+  "trailingComma": "none",
+  "overrides": [
+    { "files": "**/lwc/**/*.html", "options": { "parser": "lwc" } },
+    { "files": "*.{page,cmp,component}", "options": { "parser": "html" } },
+    { "files": "*.{trigger,cls}", "options": { "parser": "apex" } },
+    { "files": "*.{apex}", "options": { "parser": "apex-anonymous" } }
+  ],
+  "tabWidth": 2,
+  "singleQuote": true
+}
